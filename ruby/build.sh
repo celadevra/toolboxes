@@ -1,4 +1,4 @@
 #!/bin/bash
-toolbox rm -c getpocket 2>/dev/null
-toolbox create -c getpocket
-toolbox run -c getpocket sudo dnf install ruby
+toolbox rm -c ruby 2>/dev/null
+toolbox create -c ruby
+toolbox run -c ruby sudo dnf install ruby
